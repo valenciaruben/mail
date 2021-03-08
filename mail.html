@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">    
+  <title>Formulario de contacto con PHP + HTML y SMTP de Google</title>
+</head>
+<body>
+  <h1Contacto</h1>
+  <form action="mail.php" method="POST" enctype="multipart/form-data">
+    <input type="text" name="nombre" placeholder="Nombre y Apellidos" required> 
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+    <label for="exampleInputFile">Adjuntar archivo</label>
+    <input type="file" name="adjunto" placeholder="Archivo adjuto" required>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
