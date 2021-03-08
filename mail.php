@@ -1,4 +1,5 @@
 <?php
+  echo "Hola mundo!";
   $destino="valenciaruben@gmail.com";
   $asunto="Enviado desde https://keen-kilby-f47203.netlify.app";
   $nombre=$_POST['nombre'];
