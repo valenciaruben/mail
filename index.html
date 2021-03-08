@@ -2,17 +2,16 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">    
-  <title>Formulario de contacto con PHP + HTML y SMTP de Google</title>
+  <title>Form HTML, PHP y SMTP Google</title>
 </head>
 <body>
-  <h1Contacto</h1>
+  <h1>Contacto</h1>
   <form action="mail.php" method="POST" enctype="multipart/form-data">
-    <p><input type="text" name="nombre" placeholder="Nombre y Apellidos" required></p>
-    <p><input type="email" name="email" placeholder="Email" required></p>
-    <p><textarea name="mensaje" rows="4" placeholder="Mensaje" required></textarea></p>
-    <p><label for="exampleInputFile">Adjuntar archivo</label></p>
-    <p><input type="file" name="adjunto" placeholder="Archivo adjuto"></p>
-    <p><button type="submit">Enviar</button></p>
+    <input type="text" name="nombre" placeholder="Nombre y Apellidos" required> 
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+    <input type="file" name="adjunto">
+    <button type="submit">Enviar</button>
   </form>
 </body>
 </html>
